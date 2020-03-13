@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+public class ArrayListEx {
+public static void main(String[] args)  {
+ArrayList a=new ArrayList();
+a.add(1);
+a.add(1.78);
+double sum=0;
+for(object o:a) {
+Number d=null;
+//cast the object based on type and use it
+if(o instance of Number)  {
+d=(Number)o;
+sum=sum+d.doubleValue();
+}}
+System.out.println(sum); }}
